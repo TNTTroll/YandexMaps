@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/background"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".FragmentPaths">
+
+    <TextView
+        android:id="@+id/pathsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/title"
+        android:gravity="center"
+        android:text="@string/appPaths"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <ScrollView
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/module"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <LinearLayout
+            android:id="@+id/pathsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>

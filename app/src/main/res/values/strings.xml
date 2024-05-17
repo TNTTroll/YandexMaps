@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Yandex Maps</string>
+
+    <string name="loginTitle">Яндекс Карта</string>
+    <string name="loginFirstName">Имя</string>
+    <string name="loginLastName">Фамилия</string>
+    <string name="loginEmail">E-mail</string>
+    <string name="loginBtn">Войти</string>
+
+    <string name="errorEmpty">Все поля должны быть заполнены</string>
+    <string name="errorFirstName">Имя не найдено</string>
+    <string name="errorLastName">Фамилия не найдена</string>
+    <string name="errorEmail">Почта не найдена</string>
+
+    <string name="appBtn1">Места</string>
+    <string name="appBtn2">Пути</string>
+
+    <string name="appSights">Места</string>
+    <string name="appPaths">Маршруты</string>
+    <string name="appOpenMap">К карте</string>
+</resources>
